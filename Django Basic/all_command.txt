@@ -1,0 +1,12 @@
+pip show django (showing django version)
+django-admin startproject <project_name> . (here "." is important to create project in current directory)
+python3 manage.py startapp <app_name> (creating new app)
+python3 manage.py changepassword <username> (changing password)
+python3 manage.py makemigrations (make migration for creating table)
+python3 manage.py migrate (apply migration)
+python3 manage.py runserver (running server) (run developer server)
+python3 manage.py createsuperuser (creating superuser for accessing admin panel)
+
+wsgi = Web Server Gateway Interface (Interface for synchrounous applications)
+asgi = Asynchronous Server Gateway Interface (Interface for asynchronous applications)
+path('end_point/',include(<insert app name here>.urls)) (include app urls)
